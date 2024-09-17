@@ -50,4 +50,4 @@ const funcionAsincronica = async (a, b) => {
     }
 }
 
-funcionAsincronica(10, 2)
+funcionAsincronica(10, 0)

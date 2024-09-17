@@ -1,0 +1,17 @@
+{
+  "name": "clase_04",
+  "version": "1.0.0",
+  "description": "test for clase",
+  "main": "00_numerosRandom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^6.0.3",
+    "moment": "^1.6.0"
+  }
+}

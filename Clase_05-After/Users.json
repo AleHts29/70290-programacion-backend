@@ -1,0 +1,52 @@
+[
+  {
+    "nombre": "Juan Perez",
+    "apellido": "Garcia",
+    "nombreUsuario": "jgarcia",
+    "contrasenia": "password123",
+    "direccion": "Calle Falsa 123",
+    "telefono": "666666666",
+    "edad": 30,
+    "ciudad": "Buenos Aires"
+  },
+  {
+    "nombre": "Harold",
+    "apellido": "Flores",
+    "nombreUsuario": "jgarcia",
+    "contrasenia": "password123",
+    "direccion": "Calle Falsa 123",
+    "telefono": "666666666",
+    "edad": 30,
+    "ciudad": "Buenos Aires"
+  },
+  {
+    "nombre": "Pablo",
+    "apellido": "Janko",
+    "nombreUsuario": "jgarcia",
+    "contrasenia": "password123",
+    "direccion": "Calle Falsa 123",
+    "telefono": "666666666",
+    "edad": 30,
+    "ciudad": "Buenos Aires"
+  },
+  {
+    "nombre": "Pablo",
+    "apellido": "Janko",
+    "nombreUsuario": "jgarcia",
+    "contrasenia": "password123",
+    "direccion": "Calle Falsa 123",
+    "telefono": "666666666",
+    "edad": 30,
+    "ciudad": "Buenos Aires"
+  },
+  {
+    "nombre": "Pablo",
+    "apellido": "Janko",
+    "nombreUsuario": "jgarcia",
+    "contrasenia": "password123",
+    "direccion": "Calle Falsa 123",
+    "telefono": "666666666",
+    "edad": 30,
+    "ciudad": "Buenos Aires"
+  }
+]

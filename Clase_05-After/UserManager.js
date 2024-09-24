@@ -6,7 +6,7 @@ class UserManager {
     // TODO - Completar
     constructor() {
         // Inicializar el array de usuarios
-        this.filePath = path.join(__dirname, "/db/Users.json")
+        this.filePath = path.join(__dirname, "Users.json")
     }
 
 

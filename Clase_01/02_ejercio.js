@@ -30,7 +30,6 @@ function mostrarLista(array) {
 }
 
 
-
 // 01_ Prueba lista vacia
 console.log(mostrarLista([]));
 

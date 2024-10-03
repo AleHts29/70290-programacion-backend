@@ -1,6 +1,7 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
 import __dirname from './utils.js';
+import viewRouter from './routes/views.router.js'
 
 
 // Declaramos express 
@@ -15,6 +16,12 @@ app.use(express.urlencoded({ extended: true }));
 app.engine('handlebars', handlebars.engine())
 app.set('views', __dirname + '/views');
 app.set('view engine', 'handlebars');
+
+// Ubicacion de carpeta public
+app.use(express.static(__dirname + '/public/'))
+
+
+
 
 // Ruta de prueba para Hbs
 app.get('/hello', (req, res) => {
@@ -67,8 +74,15 @@ const users = [
     }
 ];
 
+app.get('/user', (req, res) => {
+    const random = Math.floor(Math.random() * users.length);
+    res.render('users', { user: users[random], style: 'index.css' })
+})
 
 
+
+// usando router y hbs
+app.use('/food', viewRouter)
 
 
 app.listen(PORT, () => {

@@ -55,7 +55,6 @@ router.post("/profile", uploader.single('img'), (req, res) => {
         pets.push(pet);
         res.send({ status: "success", message: 'Mascota Creada!' })
     }
-
 })
 
 

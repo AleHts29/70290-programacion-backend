@@ -97,21 +97,3 @@ router.delete('/:pid', async (req, res) => {
 export default router
 
 
-// Ejemplo para el Carrito
-const carts = [
-    {
-        userId: 1,
-        products: [
-            { id: 1, quantity: 2 },
-            { id: 2, quantity: 1 },
-        ],
-    },
-    {
-        userId: 2,
-        products: [
-            { id: 1, quantity: 3 },
-            { id: 3, quantity: 1 },
-        ],
-    },
-    //... more carts...
-]

@@ -1,0 +1,18 @@
+import mongoose from "mongoose";
+
+const userCollection = 'usuarios'
+
+const userSchema = new mongoose.Schema({
+    // propiedades
+    first_name: String,
+    last_name: String,
+    email: {
+        type: String,
+        unique: true,
+        required: true
+    },
+    age: Number
+})
+
+
+export const userModel = mongoose.model(userCollection, userSchema)

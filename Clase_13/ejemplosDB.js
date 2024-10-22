@@ -160,11 +160,6 @@ colegio_c13 > db.estudiantes.find().sort({ nombre: -1 }) // descending
 
 
 
-
-
-
-
-
 /*
 
 concepto de offset
@@ -181,12 +176,6 @@ concepto de offset
 
 */
 
-
-
-
-
-
-
 // Ofset --> Mueve el punto de referencia (arranca desde 0)
 colegio > db.estudiantes.find().skip(2)
 
@@ -199,6 +188,9 @@ colegio > db.estudiantes.find().limit(2)
 colegio > db.estudiantes.updateOne({ _id: ObjectId('66d0fe20085c5c4c4f394e4c') }, { $set: { apellido: 'Gonzalez' } })
 colegio_c13 > db.estudiantes.updateOne({ _id: ObjectId('67105950dd89f10a08fba315') }, { $set: { edad: 27 } })
 
+// UPDATE
+db.estudiantes.updateOne({ "nombre": "Laura" }, { $set: { edad: "28" } })
+db.estudiantes.updateMany({ curso: { $eq: "backend" } }, { $set: { level: "avanzado" } })
 
 // FindByID
 colegio > db.estudiantes.find({ _id: ObjectId('66d0fe20085c5c4c4f394e4c') })
